@@ -1,0 +1,45 @@
+body {
+  background-color: aquamarine;
+}
+
+.bubbles1 {
+  width: 25%;
+  height: auto;
+  border-radius: 5px;
+}
+.bubbles2 {
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+}
+.bubbles3 {
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container img {
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.horizontal-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: purple;
+  display: block;
+}
