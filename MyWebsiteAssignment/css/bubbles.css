@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 .container img {
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -42,4 +42,13 @@ ul {
   text-decoration: none;
   color: purple;
   display: block;
+}
+.soap-bubble {
+  font-family: "Rubik Bubbles", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  /* Layered shadows for 3D depth and iridescence */
+  text-shadow:
+    1px 1px 0px #e6acac,
+    2px 2px 5px rgba(16, 143, 185, 0.5),
+    /* Light blue glow */ -1px -1px 2px rgba(255, 182, 193, 0.4); /* Pinkish highlight */
 }
